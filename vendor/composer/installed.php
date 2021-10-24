@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '9028de9f13a97e9dd1a4c1616dcbccdbb1f96895',
+        'reference' => 'd891bedbc4af69584e2e8f50ab85a0d94091000d',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '9028de9f13a97e9dd1a4c1616dcbccdbb1f96895',
+            'reference' => 'd891bedbc4af69584e2e8f50ab85a0d94091000d',
             'dev_requirement' => false,
         ),
         'behat/gherkin' => array(

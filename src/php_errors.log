@@ -1,0 +1,22 @@
+[24-Oct-2021 07:24:07 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08006] [7] FATAL:  role "bzpbrscfprimfo" is not permitted to log in in /var/www/laabs/dependency/datasource/Adapter/Database/Datasource.php:105
+Stack trace:
+#0 /var/www/laabs/dependency/datasource/Adapter/Database/Datasource.php(105): PDO->__construct()
+#1 /var/www/laabs/dependency/datasource/Adapter/Database/Datasource.php(83): dependency\datasource\Adapter\Database\Datasource->newPdo()
+#2 /var/www/laabs/dependency/sdo/Adapter/Database/Das.php(41): dependency\datasource\Adapter\Database\Datasource->__construct()
+#3 [internal function]: dependency\sdo\Adapter\Database\Das->__construct()
+#4 /var/www/laabs/core/Reflection/Service.php(175): ReflectionClass->newInstanceArgs()
+#5 /var/www/laabs/core/Reflection/Service.php(156): core\Reflection\Service->newInstance()
+#6 /var/www/laabs/core/Reflection/Method.php(141): core\Reflection\Service->callArgs()
+#7 /var/www/laabs/core/Reflection/Service.php(174): core\Reflection\Method->getCallArgs()
+#8 /var/www/laabs/core/Reflection/Service.p in /var/www/laabs/dependency/datasource/Adapter/Database/Datasource.php on line 105
+[24-Oct-2021 07:24:07 America/Chicago] PHP Fatal error:  Uncaught 
+variables: Array
+(
+)
+
+errors: Array
+(
+)
+
+format: Error on service container route 'favicon.ico ': Bundle favicon.ico is not activated.
+  thrown in /var/www/laabs/core/Route/ContainerRouter.php on line 42
