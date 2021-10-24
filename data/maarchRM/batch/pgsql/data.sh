@@ -25,9 +25,9 @@ $(basename "$0") -p=5432 -h=127.0.0.1 -d=maarchRM -u=maarch
 
 # INIT DEFAULT VALUES
 input_pgsql_port=5432
-input_pgsql_host=127.0.0.1
-input_pgsql_database=maarchRM
-input_pgsql_user=maarch
+input_pgsql_host=ec2-54-195-246-55.eu-west-1.compute.amazonaws.com
+input_pgsql_database=d5uiv2stj1fpbh
+input_pgsql_user=odbgfwzafdjxhy
 
 
 # INIT PARAMS
